@@ -1,0 +1,115 @@
+@charset "UTF-08";
+
+/* 
+*
+*/
+:root{
+    --maincentral:#ff93f2;
+    --jujuajusta:#ff6edd;
+    --fillgame:#ff00aee6;
+    --victoriathesnek:#ff0099;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body,
+main {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:var(--maincentral);
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 1.9em;
+    color: #ff0000;
+
+}
+
+canvas {
+    background-color: var(--fillgame);
+    align-items: center;
+    border: 10px solid #ff2727;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.8rem;
+    color: #000000;
+
+}
+
+.score--value {
+    font-weight: 700;
+    font-size: 3.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #be00be;
+}
+
+.final-score {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ff2727;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ff0000;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e80c8f;
+    color: #000000;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+/*
+*
+*/
