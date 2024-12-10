@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to top, #0a0a0a, #ff7070);
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#formulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+header h1 {
+    text-align: center;
+    color: #000000; /* Cor vermelha para indicar erro */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #000000;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #000000;
+    font-size: 15px;
+}
+
+.form-group.error-message p {
+    color: #000000; /* Cor vermelha para mensagem de erro */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.botao {
+    background-color: #ff2323;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    width: 100%;
+    border: 4px solid #000000;
+    border-radius: 120px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botao:hover {
+    background-color: #c9302c;
+}
